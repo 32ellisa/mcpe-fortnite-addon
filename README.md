@@ -7,6 +7,7 @@ What it includes:
 - a ready-to-edit resource pack
 - a small packaging script that builds a `.mcaddon` file
 - simple commands for storm, loot, respawn, and round reset logic
+- a basic building kit for wall, floor, and ramp placement
 
 Important:
 - This is an original project inspired by battle royale games, not a copy of Fortnite assets or branding.
@@ -22,13 +23,21 @@ Quick start:
 
 Commands to use in-game:
 - `/function battle:start`
+- `/function battle:give_build_kit`
+- `/function battle:build_wall`
+- `/function battle:build_floor`
+- `/function battle:build_ramp`
 - `/function battle:storm_tick`
 - `/function battle:loot_reset`
 - `/function battle:reset_round`
 
+Building notes:
+- The building tools create simple structures in front of the player using common Bedrock blocks.
+- This is a starter version designed to emulate quick Fortnite-style building without requiring extra mods or external tools.
+
 Notes:
 - This is a starter add-on framework intended to be expanded with custom entities, items, and logic.
-- You can edit the `.mcfunction` files to tune timings, loot tables, and storm behavior.
+- You can edit the `.mcfunction` files to tune timings, loot tables, storm behavior, and construction size.
 
 Repository layout:
 - `behavior_pack/` - game logic and commands
