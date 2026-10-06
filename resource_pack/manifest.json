@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Battle Royale Starter Resources",
+    "description": "Resource pack for the original battle royale starter add-on.",
+    "uuid": "b480245d-5d0f-44a4-98d7-5db925703141",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e6b12db1-c8d6-4d2d-b00d-4f8b2029f89d",
+      "version": [1, 0, 0]
+    }
+  ]
+}
